@@ -204,6 +204,16 @@ obj additional = {
     textureFrameCount: 0,            # num frame count (0 - 10)
     textureFrameDuration: 0,         # num frame duration (0 - 10)
 
+    # Sign only:
+    fontSize: 10,                    # num font size
+    fontColor: #000,                 # str font color
+    backgroundColor: #fff,           # str background color
+    backgroundInvisible: false,      # bool invisibility of background
+    textAlign: left,                 # str text align (left, center, right)
+    outlineColor: #626262,           # str outline color
+    outlineThickness: 0,             # num outline thickness
+    noScaleFont: false,              # bool dont scale font with sign size
+
     # Plane Only:
     mimicSprite: true,               # bool make plane act like a sprite.
 
